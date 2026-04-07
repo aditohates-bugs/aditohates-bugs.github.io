@@ -9,19 +9,19 @@
 <body>
     <div class="slideshow-container">
         <div class="slide fade">
-            <img src="Screenshot 2026-04-07 165205.png" alt="Slide 1" class="slide-image">
+            <img src="Screenshot 2026-04-07 165205.png" class="slide-image">
             <h1></h1>
             <p>Sync programming:- Does task 1 by 1(completes task completely then moves on)<br />
             Async programming:-  While doing one task when we have to fetch foreign data/input that takes time we can say so the program moves on the next task(abuse the cpu never let it rest).
             </p>
         </div>
         <div class="slide fade">
-            <img src="https://via.placeholder.com/600x400?text=Slide+2" alt="Slide 2" class="slide-image">
+            <img src="Screenshot 2026-04-08 001213.png" class="slide-image">
             <h1>Async Programming</h1>
             <p>Fundamental terms of async programming: event loop, coroutines, async, await</p>
         </div>
         <div class="slide fade">
-            <img src="https://via.placeholder.com/600x400?text=Slide+3" alt="Slide 3" class="slide-image">
+            <img src="https://i.pinimg.com/736x/13/37/4f/13374f93b2f9464e6a7c8cd312730dcd.jpg" class="slide-image">
             <h1>Basic Structure to use</h1>
             <p>Event Loop >> Manager of a group project(ususally just the main thread) <br />
                 Co-routines >>  Employees who dont work without instructions and pause when laptop updating/ data taking time to arrive>>await<br />
@@ -29,79 +29,62 @@
         </div>
 
         <div class="slide fade">
-            <img src="Screenshot 2026-04-07 214008.png" alt="Slide 3" class="slide-image">
+            <img src="Screenshot 2026-04-07 214008.png" class="slide-image">
             <h1>Event loop</h1>
             <p>Keeps cycling through tasks, never lets the CPU sit idle waiting for data, it switches to next tasks(basically abuses the CPU)</p>
         </div>
         <div class="slide fade">
-            <img src="Screenshot 2026-04-07 214008.png" alt="Slide 3" class="slide-image">
+            <img src="Screenshot 2026-04-07 214008.png" class="slide-image">
             <h1>Coroutines</h1>
             <p>Using the async def we can make a coroutine. These are like tasks that need to be in the loop in order to function.They are basically private objects for the library(asyncio)</p>
         </div>
 
         <div class="slide fade">
-            <img src="https://via.placeholder.com/600x400?text=Slide+1" alt="Slide 1" class="slide-image">
+            <img src="https://cdn.mos.cms.futurecdn.net/QLT7UcoG6G7tzVLmuFf7b5.jpg" class="slide-image">
             <h1>Starter Pack</h1>
             <p>Async , await, asyncio.gather() and asyncio.run() are the most common words you are going to encounter when writing asyncio</p>
         </div>
 
         <div class="slide fade">
-            <img src="https://via.placeholder.com/600x400?text=Slide+2" alt="Slide 2" class="slide-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUhulxvRPZovj3XIn9rPWgjTRTSvFJAfuaPw&s" class="slide-image">
             <h1>Starter Pack</h1>
             <p>asyncio.gather()>> run multiple coroutines at once</p>
         </div>
         <div class="slide fade">
-            <img src="https://via.placeholder.com/600x400?text=Slide+2" alt="Slide 2" class="slide-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLMqO0z_KB92fpYJ_ZCzxM3W8O9x6ynJ9Cyg&s" class="slide-image">
             <h1>Starter Pack</h1>
             <p>asyncio.run()>> Actually what happnes is that the event loop uses something called tasks we first 1:create the task(task = create_task(main(): is a async def func))<br/> 2:runs the main loop<br /> 3:closes the loop once finished </p>
         </div>
 
         <div class="slide fade">
-            <img src="https://via.placeholder.com/600x400?text=Slide+3" alt="Slide 3" class="slide-image">
+            <img src="" class="slide-image">
+            <h1>loop = asyncio.get_running_loop()</h1>
+            <p>If you need to which task is running in the event loop</p>
             <h1>loop = asyncio.get_running_loop()</h1>
             <p>If you need to interact with the event loop within a Python program</p>
         </div>
 
-        <div class="slide fade">
-            <img src="https://via.placeholder.com/600x400?text=Slide+4" alt="Slide 4" class="slide-image">
-            <h1>Slide 4</h1>
-            <p>Coroutines don’t do much on their own until they’re tied to the event loop.
-By default, an async event loop runs in a single thread and on a single CPU core. In most asyncio applications, there will be only one event loop, typically in the main thread. Running multiple event loops in different threads is technically possible, but not commonly needed or recommended.
-Event loops are pluggable. You can write your own implementation and have it run tasks just like the event loops provided in asyncio.</p>
-        </div>
-
-        
-        
-        <div class="slide fade">
-            <img src="https://via.placeholder.com/600x400?text=Slide+3" alt="Slide 3" class="slide-image">
-            <h1>loop = asyncio.get_running_loop()</h1>
-            <p>If you need to interact with the event loop within a Python program</p>
-        </div>
-        <div class="slide fade">
-            <img src="https://via.placeholder.com/600x400?text=Slide+3" alt="Slide 3" class="slide-image">
-            <h1>loop = asyncio.get_running_loop()</h1>
-            <p>If you need to interact with the event loop within a Python program</p>
-        </div>
 
         <div class="slide fade">
-            <img src="https://via.placeholder.com/600x400?text=Slide+3" alt="Slide 3" class="slide-image">
+            <img src="https://media1.tenor.com/m/z96omM3JqJkAAAAC/nerd-dog.gif" class="slide-image">
             <h1></h1>
             <p>In Python, only one thread can work at a time</p>
         </div>
         <div class="slide fade">
-            <img src="https://via.placeholder.com/600x400?text=Slide+3" alt="Slide 3" class="slide-image">
+            <img src="https://framerusercontent.com/images/OQ5AwIWSyy4HrDRqlGZwfkWApk.png?width=1024&height=585" class="slide-image">
             <h1></h1>
             <p>You get Concurrency (switching tasks quickly), not Parallelism (doing tasks simultaneously)</p>
         </div>
         <div class="slide fade">
-            <img src="https://via.placeholder.com/600x400?text=Slide+3" alt="Slide 3" class="slide-image">
+            
+            <img src="https://i.pinimg.com/736x/3a/97/e4/3a97e432077c584da3c5cc96c50e2a42.jpg"  class="slide-image">
             <h1>Cooking Dinner Analogy</h1>
             <p>One Chef. He chops onions, then stops to stir the soup, then goes back to chopping. He is doing multiple things, but only one at a time.<br />
                 Two Chefs. One chops onions while the other stirs the soup. They work at the exact same time
             </p>
         </div>
         <div class="slide fade">
-            <img src="https://via.placeholder.com/600x400?text=Slide+3" alt="Slide 3" class="slide-image">
+            <img src="https://medium.com/@anandpillai/threading-patterns-with-python-b717ccc9d8ec" class="slide-image"><img src="https://images.intellipaat.com/wp-content/uploads/2025/05/Thread-Lifecycle-in-C.jpg" class="slide-image">
             <h1></h1>
             <p>Python: Uses Heavy Threads limited by the GIL. Great for waiting tasks (like downloading files) but slow for heavy math.<br />
 C++: Uses OS Threads. They are powerful and run purely in parallel, but they are complex to manage manually.<br />
@@ -109,17 +92,27 @@ Golang: Uses Goroutines. These are "super-lightweight" threads. You can run thou
         </div>
         
 
-        <!-- Navigation buttons -->
+        
         <a class="prev" onclick="changeSlide(-1)">❮ Previous</a>
         <a class="next" onclick="changeSlide(1)">Next ❯</a>
     </div>
 
-    <!-- Slide indicators -->
+    
     <div class="dots-container">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
         <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+        <span class="dot" onclick="currentSlide(10)"></span>
+        <span class="dot" onclick="currentSlide(11)"></span>
+        <span class="dot" onclick="currentSlide(12)"></span>
+        <span class="dot" onclick="currentSlide(13)"></span>
+        
     </div>
 
     <script src="ppt.js"></script>
