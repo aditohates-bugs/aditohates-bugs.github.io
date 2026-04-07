@@ -86,22 +86,26 @@ Event loops are pluggable. You can write your own implementation and have it run
         <div class="slide fade">
             <img src="https://via.placeholder.com/600x400?text=Slide+3" alt="Slide 3" class="slide-image">
             <h1></h1>
-            <p></p>
+            <p>In Python, only one thread can work at a time</p>
         </div>
         <div class="slide fade">
             <img src="https://via.placeholder.com/600x400?text=Slide+3" alt="Slide 3" class="slide-image">
             <h1></h1>
-            <p></p>
+            <p>You get Concurrency (switching tasks quickly), not Parallelism (doing tasks simultaneously)</p>
+        </div>
+        <div class="slide fade">
+            <img src="https://via.placeholder.com/600x400?text=Slide+3" alt="Slide 3" class="slide-image">
+            <h1>Cooking Dinner Analogy</h1>
+            <p>One Chef. He chops onions, then stops to stir the soup, then goes back to chopping. He is doing multiple things, but only one at a time.<br />
+                Two Chefs. One chops onions while the other stirs the soup. They work at the exact same time
+            </p>
         </div>
         <div class="slide fade">
             <img src="https://via.placeholder.com/600x400?text=Slide+3" alt="Slide 3" class="slide-image">
             <h1></h1>
-            <p></p>
-        </div>
-        <div class="slide fade">
-            <img src="https://via.placeholder.com/600x400?text=Slide+3" alt="Slide 3" class="slide-image">
-            <h1></h1>
-            <p></p>
+            <p>Python: Uses Heavy Threads limited by the GIL. Great for waiting tasks (like downloading files) but slow for heavy math.<br />
+C++: Uses OS Threads. They are powerful and run purely in parallel, but they are complex to manage manually.<br />
+Golang: Uses Goroutines. These are "super-lightweight" threads. You can run thousands of them easily, and they automatically use all CPU cores</p>
         </div>
         
 
